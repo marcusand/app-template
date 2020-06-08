@@ -23,10 +23,10 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^2.5.1",
     "eslint-watch": "^7.0.0",
+    "parcel-bundler": "^1.12.4",
     "prettier": "^2.0.5"
   },
   "dependencies": {
-    "parcel-bundler": "^1.12.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
