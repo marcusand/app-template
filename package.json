@@ -6,7 +6,8 @@
   "scripts": {
     "cleanup": "rm -r ./dist",
     "lint": "npx esw --watch --fix src/",
-    "dev": "npm run cleanup; npx parcel src/index.html --no-cache"
+    "dev": "npm run cleanup; npx parcel src/index.html --no-cache",
+    "prod": "NODE_ENV=production npx parcel build src/index.html"
   },
   "author": "Marcus Schreiter -- MESO",
   "license": "ISC",
