@@ -1,7 +1,7 @@
 {
-  "name": "map-app",
+  "name": "app",
   "version": "1.0.0",
-  "description": "map application for Deutsches Romantik Museum",
+  "description": "description",
   "main": "index.js",
   "scripts": {
     "cleanup": "rm -r ./dist",
@@ -9,7 +9,7 @@
     "dev": "npm run cleanup; npx parcel src/index.html --no-cache",
     "prod": "NODE_ENV=production npx parcel build src/index.html"
   },
-  "author": "Marcus Schreiter -- MESO",
+  "author": "Marcus Schreiter",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.8.0",
